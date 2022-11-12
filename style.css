@@ -2,13 +2,14 @@
   --font-color: #222;
   --bg-color: #f2f3f7;
   --button-bg-color: #f2f3f7;
-  --button-shadow:-6px -6px 8px rgba(255, 255, 255, 0.9),
+  --button-shadow:
+  -6px -6px 8px rgba(255, 255, 255, 0.9),
   5px 5px 8px rgba(0, 0, 0, 0.07); 
 }
 
 [data-theme=dark] {
   --font-color: #fff;
-  --gb-color: #181818;
+  --bg-color: #181818;
   --button-bg-color: #121212;
   --button-shadow:
       -2px -2px 4px rgba(255, 255, 255, 0.05),
@@ -23,8 +24,9 @@ html {
   color:  var(--font-color);
 }
 
-*::before,
-*::after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -42,8 +44,8 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
-  padding-top: 110px;
+  justify-content: space-evenly;
+  padding-top: 100px;
   align-items: center;
   flex-direction: column;
 }
@@ -55,17 +57,17 @@ body {
 }
 
 .app-container {
-  background-color: var(--bg-color);
-  border-radius: 40px;
-  box-shadow: -2px 2px 4px 0 #fff, 50px 50px 50px 0 rgba(0, 0, 0, 0.25);
-  display: block;
-  flex: 1;
-  min-height: 500px;
-  max-width: 350px;
-  margin-top: 25px;
-  overflow: hidden;
-  padding: 30px;
-}
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    box-shadow: -2px -2px 4px 0px #ffffff, 50px 50px 50px 0px rgba(0, 0, 0, 0.25);
+    display: block;
+    flex: 1;
+    min-height: 500px;
+    max-width: 350px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    padding: 30px;
+  }
 
 .app-top-bar {
   display: flex;
@@ -199,7 +201,7 @@ button:focus {
   transform: rotate(150deg);
 }
 
-.button-block span {
+.button-block {
   align-items: center;
   display: flex;
   justify-content: space-between;
