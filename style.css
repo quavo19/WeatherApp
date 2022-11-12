@@ -167,3 +167,14 @@ button:focus {
   fill: #067cf8;
   z-index: 10;
 }
+
+.button-dial-spoke {
+  background-color: rgba(96, 171, 254, 0.6);
+  display: block;
+  height: 2px;
+  width: 83%;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 5;
+  top: 50%;
+}
