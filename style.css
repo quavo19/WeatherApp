@@ -178,3 +178,23 @@ button:focus {
   z-index: 5;
   top: 50%;
 }
+
+.button-dial-spoke:nth-child(2) {
+  transform: rotate(30deg);
+}
+
+.button-dial-spoke:nth-child(3) {
+  transform: rotate(60deg);
+}
+
+.button-dial-spoke:nth-child(4) {
+  transform: rotate(90deg);
+}
+
+.button-dial-spoke:nth-child(5) {
+  transform: rotate(120deg);
+}
+
+.button-dial-spoke:nth-child(6) {
+  transform: rotate(150deg);
+}
