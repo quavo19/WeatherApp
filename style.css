@@ -67,4 +67,63 @@ body {
   padding: 30px;
 }
 
+.app-top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
+.app-heading {
+  color: var(--font-color);
+  display: block;
+  flex: 1;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  border: none;
+  outline: none !important;
+  outline-style: none;
+}
+
+.button {
+  color: var(--font-color);
+  position: relative;
+  border-radius: 15px;
+  background-color: var(--button-bg-color);
+  font-weight: 700;
+  transition: all 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: var(--button-shadow);
+  cursor: pointer;
+}
+
+.button.button-link {
+  color: #067cfb;
+  display: block;
+  font-size: 17px;
+  margin: 30px 0 0;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.button.button-small {
+  color: #6d6e74;
+  font-size: 22px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.button.button-large{
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  padding: 15px;
+}
