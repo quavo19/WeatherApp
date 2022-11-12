@@ -40,7 +40,7 @@ class UI {
        
           </button>
           <button class="button button-large">
-          <i class="fas fa-light fa-temperature-half" style="color:#1885ffe3"></i>Max:${(data.main.temp_max  - 273.15).toFixed(2)}
+          <i class="fas fa-light fa-temperature-half" style="color: #e53511;"></i>Max:${(data.main.temp_max  - 273.15).toFixed(2)}
           </button>
          </div> <br>
          <div class="flex-button-container">
