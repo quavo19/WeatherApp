@@ -198,3 +198,24 @@ button:focus {
 .button-dial-spoke:nth-child(6) {
   transform: rotate(150deg);
 }
+
+.button-block span {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 24px;
+  width: 100%;
+}
+
+.button-block span {
+  font-size: 16px;
+}
+
+.subtle {
+  color: #6d6e74;
+}
+
+.flex-button-container {
+  display: flex;
+  justify-content: space-between;
+}
