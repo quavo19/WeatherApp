@@ -3,8 +3,8 @@
   --bg-color: #f2f3f7;
   --button-bg-color: #f2f3f7;
   --button-shadow:
-  -6px -6px 8px rgba(255, 255, 255, 0.9),
-  5px 5px 8px rgba(0, 0, 0, 0.07); 
+    -6px -6px 8px rgba(255, 255, 255, 0.9),
+    5px 5px 8px rgba(0, 0, 0, 0.07);
 }
 
 [data-theme=dark] {
@@ -12,21 +12,21 @@
   --bg-color: #181818;
   --button-bg-color: #121212;
   --button-shadow:
-      -2px -2px 4px rgba(255, 255, 255, 0.05),
-      0 0 10px 10px rgba(255, 255, 255, 0.005),
-      2px 2px 8px rgba(60, 60, 60, 0.1);
+    -2px -2px 4px rgba(255, 255, 255, 0.05),
+    0 0 10px 10px rgba(255, 255, 255, 0.005),
+    2px 2px 8px rgba(60, 60, 60, 0.1);
 }
 
 html {
   box-sizing: border-box;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
-  color:  var(--font-color);
+  color: var(--font-color);
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -57,17 +57,17 @@ body {
 }
 
 .app-container {
-    background-color: var(--bg-color);
-    border-radius: 40px;
-    box-shadow: -2px -2px 4px 0px #ffffff, 50px 50px 50px 0px rgba(0, 0, 0, 0.25);
-    display: block;
-    flex: 1;
-    min-height: 500px;
-    max-width: 350px;
-    margin-bottom: 25px;
-    overflow: hidden;
-    padding: 30px;
-  }
+  background-color: var(--bg-color);
+  border-radius: 40px;
+  box-shadow: -2px -2px 4px 0 #fff, 50px 50px 50px 0 rgba(0, 0, 0, 0.25);
+  display: block;
+  flex: 1;
+  min-height: 500px;
+  max-width: 350px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  padding: 30px;
+}
 
 .app-top-bar {
   display: flex;
@@ -123,7 +123,7 @@ button:focus {
   height: 40px;
 }
 
-.button.button-large{
+.button.button-large {
   display: flex;
   font-size: 20px;
   flex-direction: column;
@@ -132,7 +132,7 @@ button:focus {
   width: 45%;
 }
 
-.button.button-large i{
+.button.button-large i {
   margin-bottom: 40px;
   margin-top: 25px;
   width: 30px;
