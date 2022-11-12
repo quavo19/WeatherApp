@@ -1,12 +1,12 @@
 
-# Personal Portfolio 
+# Wheter App
 
-## this is a project i made for my portfolio
+this project was made to help determine temperatures, wind speed and humidity of any given area. it makes you know upcomming conditions and how to prepare. 
 
 ## Built With
 - html
 - css
-- figma
+- javaScript
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ To get a local copy up and running follow these simple example steps.
 ## Step 1:
 - if you don't have git installed on your machine you can download it from [here ](https://git-scm.com/downloads).
 - Once you have git installed on your machine you can clone your project by running the command below to clone this project to your local machine in the directory of the folder you want it to be cloned
-- git clone https://github.com/quavo19/Portfolio.git
+- git clone https://github.com/quavo19//WeatherApp.git
 - Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
 ## Step 2: 
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo 
 
-you can view a live demo from [here](https://quavo19.github.io/Donald)
+you can view a live demo from [here](https://quavo19.github.io/WeatherApp/)
 
 ## Show your support
 Give a ⭐️ if you like this project!
