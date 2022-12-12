@@ -1,6 +1,6 @@
 
 # Wheter App
-
+A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript.
 this project was made to help determine temperatures, wind speed and humidity of any given area. it makes you know upcomming conditions and how to prepare. 
 
 ## Built With
